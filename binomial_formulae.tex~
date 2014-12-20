@@ -1,0 +1,45 @@
+\documentclass[32pt]{article}
+	\usepackage[total={18cm,27cm},top=2cm, left=2cm, bottom=2cm, right=2cm]{geometry}
+
+\title{Deducci\'{o}n de las f\'{o}rmulas de Black-Scholes mediante valor esperado del pago futuro \footnote{\LaTeX}}
+\author{Alexis S\'{a}nchez Tello de Meneses}
+\date{4 Septiembre 2014}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{equation}
+	\mbox{\Huge
+	 $ A = \frac{1}{2}\left[e^{-\left(r-d\right)\delta t} + e^{\left(r-d+\sigma^{2}\right)\delta t}\right]$ }
+\end{equation}
+
+
+\newline
+
+
+\begin{equation}
+	\mbox{\Huge
+	 $ d = A - \sqrt{A^{2}-1} $ }
+\end{equation}
+
+
+\newline
+
+
+\begin{equation}
+	\mbox{\Huge
+	 $ u = A + \sqrt{A^{2}-1} $ }
+\end{equation}
+
+
+\newline
+
+
+\begin{equation}
+	\mbox{\Huge
+	 $ p = \frac{e^{\left(r-d\right)\delta t}-d}{u-d}$ }
+\end{equation}
+
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass[32pt]{article}
+	\usepackage[total={18cm,27cm},top=2cm, left=2cm, bottom=2cm, right=2cm]{geometry}
+
+\title{Deducci\'{o}n de las f\'{o}rmulas de Black-Scholes mediante valor esperado del pago futuro \footnote{\LaTeX}}
+\author{Alexis S\'{a}nchez Tello de Meneses}
+\date{4 Septiembre 2014}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{equation}
+	\mbox{\Huge
+	 $ C\left(S_{t}\right) = S_{t}e^{-\delta\tau}\Phi\left(d_{+}\right) - Ke^{-r\tau}\Phi\left(d_{-}\right) $ }
+\end{equation}
+
+
+\newline
+
+
+
+\begin{equation}
+	\mbox{\Huge
+	 $ d_{\pm} = \frac{1}{\sigma\sqrt{\tau}}\ln\left(\frac{S_{t}}{Ke^{-\left(r-\delta\right)\tau}}\right)\pm
+			\frac{1}{2}\sigma\sqrt{\tau} $ }
+\end{equation}
+
+
+\end{document}

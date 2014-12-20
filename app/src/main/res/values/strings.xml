@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">American Option Pricing Solver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="american_types">
+        <item>Standard Call</item>
+        <item>Standard Put</item>
+        <item>Binary Call</item>
+        <item>Binary Put</item>
+    </string-array>
+
+    <string name="spot_level_literal">Spot Level </string>
+    <string name="strike_literal">Strike</string>
+    <string name="rate_literal">Rate</string>
+    <string name="dividend_literal">Dividend</string>
+    <string name="maturity_literal">Maturity</string>
+    <string name="volatility_literal">Volatility</string>
+    <string name="price_literal">Price</string>
+    <string name="american_type_literal">American Type</string>
+    <string name="solve_problem_literal">Solve Problem</string>
+
+
+</resources>
